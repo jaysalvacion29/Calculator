@@ -1,0 +1,101 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the Calculator on Screen */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Calculator Container */
+.container {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Title */
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input Groups */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    width: 120px;
+    text-align: left;
+}
+
+input {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Button Group */
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Colors */
+#addBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#addBtn:hover {
+    background-color: #218838;
+}
+
+#clearBtn {
+    background-color: #ffc107;
+    color: black;
+}
+
+#clearBtn:hover {
+    background-color: #e0a800;
+}
+
+#exitBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#exitBtn:hover {
+    background-color: #c82333;
+}
